@@ -12,6 +12,9 @@ const TransactionMiner = require("./app/transaction-miner");
 
 const isDevelopment = process.env.ENV === "development";
 
+
+
+
 const blockchain = new Blockchain();
 const transactionPool = new TransactionPool();
 const wallet = new Wallet();
@@ -25,6 +28,7 @@ const transactionMiner = new TransactionMiner({
 
 const DEFAULT_PORT = 3000;
 const ROOT_NODE_ADDRESS = `http://localhost:${DEFAULT_PORT}`;
+
 
 // setTimeout(() => pubsub.broadcastChain(), 1000);
 

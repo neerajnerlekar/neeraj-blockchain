@@ -10,7 +10,7 @@ const GENESIS_DATA = {
   data: [],
 };
 
-const STARTING_BALANCE = 1000;
+const STARTING_BALANCE = 1000000;
 
 const REWARD_INPUT = { address: "*authorized-reward*" };
 
